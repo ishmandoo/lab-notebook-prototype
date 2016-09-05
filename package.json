@@ -1,0 +1,33 @@
+{
+  "name": "lab-notebook-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base . --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishmandoo/lab-notebook-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishmandoo/lab-notebook-prototype/issues"
+  },
+  "homepage": "https://github.com/ishmandoo/lab-notebook-prototype#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0"
+  }
+}
